@@ -1,0 +1,50 @@
+# -------------------------------------------------------------------------
+# Flutter / Dart Defaults
+# -------------------------------------------------------------------------
+# Tooling artifacts
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+ephemeral/
+
+# Logs and crashes
+*.log
+*.crash
+
+# -------------------------------------------------------------------------
+# Firebase & FlutterFire Specifics
+# -------------------------------------------------------------------------
+# Local Firebase CLI configuration and debug logs
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# FlutterFire CLI generated configuration
+# Hide this if your project is open-source or shared with multiple teams
+lib/firebase_options.dart
+
+# Platform-specific Firebase native credential files
+# Optional for private repos, but mandatory for public/open-source repos
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+
+# -------------------------------------------------------------------------
+# Operating System & IDE Defaults
+# -------------------------------------------------------------------------
+# macOS
+.DS_Store
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Web caching
+.web_plugins/
